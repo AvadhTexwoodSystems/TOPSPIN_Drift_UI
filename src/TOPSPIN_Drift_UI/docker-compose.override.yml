@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  topspin_drift_ui:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

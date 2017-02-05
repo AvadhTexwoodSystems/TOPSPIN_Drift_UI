@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  topspin_drift_ui:
+    image: topspin_drift_ui
+    build:
+      context: .
+      dockerfile: Dockerfile
